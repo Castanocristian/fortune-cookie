@@ -1,10 +1,8 @@
 
-const Quote = ({Phrase}) => {
+const Quote = ({phrase}) => {
 
-    console.log(Phrase)
-
-  return (
-    <p className="container_phrase">Phrase.Phrase</p>
+  return ( 
+    <p className="container_phrase">{phrase.phrase}</p>
   )
 }
 

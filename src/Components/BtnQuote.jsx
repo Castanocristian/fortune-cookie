@@ -1,14 +1,15 @@
 import getRandomElemArray from "../Utils/getRandomElemArray"
 
-const BtnQuote = ({setQuote,Phrases,setNumberBg}) => {
+const BtnQuote = ({setQuote,phrases,setNumberBg}) => {
 
 const handleRandomPhrase=() =>{
-setQuote(getRandomElemArray(Phrases))
+setQuote(getRandomElemArray(phrases))
 setNumberBg(getRandomElemArray([1, 2 ,3 ,4]))
 }
 
+
   return (
-    <button className="container_btn"  onClick={handleRandomPhrase}>Refrescar</button>
+    <button className="container_btn" onClick={handleRandomPhrase}>Otra galleta</button>
   )
 }
 
